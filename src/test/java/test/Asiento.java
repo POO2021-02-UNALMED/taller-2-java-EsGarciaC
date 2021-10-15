@@ -10,6 +10,9 @@ public class Asiento {
 		if(color == "verde" || color == "rojo" || color == "negro" || color == "blanco" || color == "amarillo") {
 			this.color = color;
 		}
+		else{
+			this.color = this.color;
+		}
 	}
 	
 }
